@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Célyo Davy</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <nav class="barra_lateral_retratil">
+        <ul>
+            <li>
+                <a href="#sobre" class="item_navegacao">
+                    <span class="nome_secao">Sobre mim</span>
+                    <span class="ponto_marcador"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#habilidades" class="item_navegacao">
+                    <span class="nome_secao">Habilidades</span>
+                    <span class="ponto_marcador"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#projetos" class="item_navegacao">
+                    <span class="nome_secao">Projetos</span>
+                    <span class="ponto_marcador"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#contato" class="item_navegacao">
+                    <span class="nome_secao">Contato & Sugestões</span>
+                    <span class="ponto_marcador"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre" class="sobre_mim">
+            <h1>Sobre mim</h1>
+            <h2>Meu nome é Célyo Davy</h2>
+            <p class="sobre_texto">
+                Tenho 16 anos, estudo na escola SESI e tenho interesse em áreas como tecnologia e automobilística.
+                Gostaria de me especializar em desenvolvimento web básico e, futuramente, trabalhar com manutenção de
+                computadores ou mecânica/elétrica automotiva.
+            </p>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="habilidades" class="meus_habilidades">
+            <h2>Habilidades</h2>
+
+            <div class="habilidades_container">
+                <div class="habilidades_card">
+                    <h1>HTML</h1>
+                    <p>Tenho conhecimento básico/intermediário, me insteresso na área de tecnologia e gosto de saber
+                        como as coisas funcionam principalmente um site .</p>
+                </div>
+
+                <div class="habilidades_card">
+                    <h1>CSS</h1>
+                    <p>Tenho conhecimento básico, acho interessante a forma que é possível estilizar e embelezar um
+                        site e gosto de ver que consigo deixar o site da forma que eu quero </p>
+                </div>
+
+                <div class="habilidades_card">
+                    <h1>JavaScript</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis perferendis nesciunt placeat harum
+                        iure quaerat.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="main_projetos" id="projetos">
+            <br>
+            <br>
+            <h1>Projetos</h1\>
+                <br>
+                <br>
+        </div>
+        <div class="container_bloco_projetos"
+            style="display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;">
+
+            <!-- PRIMEIRO PROJETO -->
+            <div class="main_projetos_conteudo">
+                <div class="topico_projetos">
+                    <p><strong>Profissional Audiovisual</strong></p>
+                </div>
+
+                <img class="main_projetos_img" src="Projetos 1.jpg"
+                    alt="imagem ilustrativa de um profissional de uma mesa de som">
+
+                <p class="main_projetos">
+                    Este projeto destaca a atuação técnica e artística no controle de fluxo de sinal e mixagem em tempo
+                    real durante um festival de música com mais de 15 bandas de gêneros variados. O grande desafio foi
+                    garantir a transição rápida entre os palcos, mantendo a consistência, a clareza e o impacto do som
+                    para um público de mais de 5.000 pessoas, além de monitorar o retorno impecável para os músicos no
+                    palco.
+                </p>
+            </div>
+
+            <!-- SEGUNDO PROJETO -->
+            <div class="main_conteudo_projetos">
+                <div class="tópicos_projetos">
+                    <p><strong>Produtor Musical</strong></p>
+                </div>
+
+                <img class="main_projetos_img" src="Projetos  2.jpg" alt="imagem ilustrativa de produtor musical">
+
+                <p class="main_projetos">
+                    A produção do EP "Nebula" foi um processo de imersão criativa que transformou ideias brutas em um
+                    produto final comercialmente competitivo e artisticamente único. Atuando desde a concepção das
+                    faixas até a entrega final, o objetivo foi criar uma identidade sonora que mesclasse o Pop
+                    alternativo com texturas eletrônicas retro-futuristas (Synthwave).
+                </p>
+            </div>
+
+        </div>
+        <!-- Seção de Contato e Sugestões -->
+        <section id="contato" class="secao_contato">
+            <h2>Contato & Sugestões</h2>
+            <p class="contato_subtitulo">Deixe sua mensagem, sugestão ou entre em contato comigo!</p>
+
+            <form class="formulario_contato" action="#" method="POST">
+                <div class="grupo_campo">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="grupo_campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="grupo_campo">
+                    <label for="telefone">Número de Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                </div>
+
+                <div class="grupo_campo">
+                    <label for="observacoes">Observações / Sugestões</label>
+                    <textarea id="observacoes" name="observacoes" rows="5"
+                        placeholder="Escreva aqui suas observações ou sugestões..." required></textarea>
+                </div>
+
+                <button type="submit" class="botao_enviar">Enviar Mensagem</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
